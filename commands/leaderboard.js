@@ -31,7 +31,7 @@ module.exports = {
         .setThumbnail('https://i.imgur.com/CDlIagn.png')
         .setDescription(
                 users.sort((a, b) => b.balance - a.balance)
-                .map((user, position) => ` \`\`${position + 1}.\`\` **| ${user.charname}**\n${user.medal_gold} <:oro:904439890777874452> ${user.medal_silver} <:plata:904439889175642142> ${user.medal_bronze} <:bronce:904439889867702324> ${user.medal_iron} <:hierro:904439890417180683> ${user.medal_cardboard} <:carton:904439891037929522>`)
+                .map((user, position) => ` \`\`${position + 1}.\`\` **| ${user.charname}**\n${user.medal_gold} <:oro:904816810812145694> ${user.medal_silver} <:silver:904816810568843285> ${user.medal_bronze} <:bronze:904816810224930858> ${user.medal_iron} <:iron:904816810686287922> ${user.medal_cardboard} <:carton:904816810803757096>`)
                 .join('\n'),
         )
         

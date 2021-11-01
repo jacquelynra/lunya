@@ -34,7 +34,7 @@ module.exports = {
                 .setTitle(`Lunatic Cup || Perfil de ${UserData.charname}`)
                 .setThumbnail(interaction.user.avatarURL())
                 .addFields(
-                        { name: 'Medallas', value: `${UserData.medal_gold} <:oro:904439890777874452> ${UserData.medal_silver} <:plata:904439889175642142> ${UserData.medal_bronze} <:bronce:904439889867702324> ${UserData.medal_iron} <:hierro:904439890417180683> ${UserData.medal_cardboard} <:carton:904439891037929522>` , inline: true },
+                        { name: 'Medallas', value: `${UserData.medal_gold} <:oro:904816810812145694> ${UserData.medal_silver} <:silver:904816810568843285> ${UserData.medal_bronze} <:bronze:904816810224930858> ${UserData.medal_iron} <:iron:904816810686287922> ${UserData.medal_cardboard} <:carton:904816810803757096>` , inline: true },
                         { name: 'Posición', value: `#${UserData.rank + 1}`, inline: true },
                 );
                 

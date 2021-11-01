@@ -48,7 +48,7 @@ module.exports = {
         const embed = new MessageEmbed()
         .setColor('#1565C0')
         .setTitle('Confirma los detalles')
-        .setDescription(`Le estás borrando medallas a <@${newuserid.id}>: ${medallaoro} <:oro:904439890777874452> ${medallaplata} <:plata:904439889175642142> ${medallabronce} <:bronce:904439889867702324> ${medallahierro} <:hierro:904439890417180683> ${medallamadera} <:carton:904439891037929522>`);
+        .setDescription(`Le estás borrando medallas a <@${newuserid.id}>: ${medallaoro} <:oro:904816810812145694> ${medallaplata} <:silver:904816810568843285> ${medallabronce} <:bronze:904816810224930858> ${medallahierro} <:iron:904816810686287922> ${medallamadera} <:carton:904816810803757096>`);
 
         const row = new MessageActionRow()
         .addComponents(
