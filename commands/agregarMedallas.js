@@ -24,7 +24,7 @@ module.exports = {
         await interaction.deferReply({ephemeral: true });
         
         // Checkear permisos
-        if (!interaction.member.roles.cache.has("836033511201833010")){
+        if (!interaction.member.roles.cache.has("554672385979056158")){
             interaction.editReply({ content: 'No tienes el permiso para ejecutar este comando.' , ephemeral: true})
             return;
         }
